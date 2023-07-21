@@ -31,6 +31,7 @@
 		B7503B242A6A560C005E73DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7503B232A6A560C005E73DE /* Assets.xcassets */; };
 		B7503B272A6A560C005E73DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7503B262A6A560C005E73DE /* Preview Assets.xcassets */; };
 		B751AD152A6A97B400169383 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B751AD142A6A97B300169383 /* HeaderView.swift */; };
+		B751AD172A6AC1F900169383 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B751AD162A6AC1F900169383 /* TLButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		B7503B232A6A560C005E73DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7503B262A6A560C005E73DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B751AD142A6A97B300169383 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		B751AD162A6AC1F900169383 /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				B707F5BB2A6A6EB0008D0DDC /* RegisterView.swift */,
 				B707F5BD2A6A6EFC008D0DDC /* ToDoListItemView.swift */,
 				B751AD142A6A97B300169383 /* HeaderView.swift */,
+				B751AD162A6AC1F900169383 /* TLButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				B707F5C42A6A6FBC008D0DDC /* MainViewViewModel.swift in Sources */,
 				B7503B222A6A55EB005E73DE /* MainView.swift in Sources */,
 				B707F5B62A6A6E60008D0DDC /* ToDoListView.swift in Sources */,
+				B751AD172A6AC1F900169383 /* TLButton.swift in Sources */,
 				B707F5C62A6A6FCB008D0DDC /* ProfileViewViewModel.swift in Sources */,
 				B707F5BC2A6A6EB0008D0DDC /* RegisterView.swift in Sources */,
 				B707F5B42A6A6E45008D0DDC /* ProfileView.swift in Sources */,
