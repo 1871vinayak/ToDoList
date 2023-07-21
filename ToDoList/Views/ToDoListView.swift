@@ -9,7 +9,7 @@ import FirebaseFirestoreSwift
 import SwiftUI
 
 struct ToDoListView: View {
-    @StateObject var viewModel = ToDoListViewViewModel()
+    @StateObject var viewModel: ToDoListViewViewModel
     @FirestoreQuery var items: [ToDoListItem]
     
     //private let userId: String
@@ -18,7 +18,10 @@ struct ToDoListView: View {
         //self.userId = userId
         // users/<id>/todos/<entries>
         self._items = FirestoreQuery(collectionPath: "users/\(userId)/todos")
+        self._viewModel = StateObject(
+            wrappedValue: ToDoListViewViewModel(userId: userId))
     }
+    
     
     var body: some View {
         //Text("Welcome to your account!")
@@ -30,7 +33,7 @@ struct ToDoListView: View {
                             Button("Delete"){
                                 viewModel.delete(id: item.id)
                             }
-                            .background(Color.red)
+                            .tint(.red)
                         }
                 }
             }
@@ -40,7 +43,7 @@ struct ToDoListView: View {
                     //Action
                     viewModel.showingNewItemView = true
                 } label: {
-                    Image(systemName: "plus")
+                    Image(systemName: "square.and.pencil")
                 }
             }
             .sheet(isPresented: $viewModel.showingNewItemView){

@@ -14,9 +14,9 @@ struct RegisterView: View {
         VStack {
             // Header
             HeaderView(title: "Register",
-                       subtitle: "Start Organizing To Do",
+                       subtitle: "One place to Organize",
                        angle: -15,
-                       background: .purple)
+                       background: .indigo)
             Form {
                 TextField("Full Name", text: $viewModel.name)
                     .textFieldStyle(DefaultTextFieldStyle())
@@ -30,7 +30,7 @@ struct RegisterView: View {
                 SecureField("Password", text: $viewModel.password)
                     .textFieldStyle(DefaultTextFieldStyle())
                 
-                TLButton(title: "Create Account", background: .green){
+                TLButton(title: "Create Account", background: .indigo){
                     // Attempt Registration
                     viewModel.register()
                 }
