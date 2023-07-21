@@ -23,7 +23,7 @@ struct NewItemView: View {
                     .textFieldStyle(DefaultTextFieldStyle())
                 
                 //Due Date
-                DatePicker("Due Date", selection: $viewModel.duedate)
+                DatePicker("Due Date", selection: $viewModel.dueDate)
                     .datePickerStyle(GraphicalDatePickerStyle())
                 
                 //Button
@@ -38,8 +38,9 @@ struct NewItemView: View {
                 .padding()
             }
             .alert(isPresented: $viewModel.showAlert){
-                Alert(title: Text("Error"),
-                      message: Text("Please fill in all the fields and select due date that is today or newer."))
+                Alert(
+                    title: Text("Error"),
+                    message: Text("Please fill in all the fields and select due date that is today or newer."))
             }
         }
     }
