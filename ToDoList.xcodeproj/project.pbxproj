@@ -30,6 +30,7 @@
 		B7503B222A6A55EB005E73DE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7503B212A6A55EB005E73DE /* MainView.swift */; };
 		B7503B242A6A560C005E73DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7503B232A6A560C005E73DE /* Assets.xcassets */; };
 		B7503B272A6A560C005E73DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7503B262A6A560C005E73DE /* Preview Assets.xcassets */; };
+		B751AD152A6A97B400169383 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B751AD142A6A97B300169383 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		B7503B212A6A55EB005E73DE /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		B7503B232A6A560C005E73DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7503B262A6A560C005E73DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B751AD142A6A97B300169383 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				B707F5B92A6A6EA4008D0DDC /* LoginView.swift */,
 				B707F5BB2A6A6EB0008D0DDC /* RegisterView.swift */,
 				B707F5BD2A6A6EFC008D0DDC /* ToDoListItemView.swift */,
+				B751AD142A6A97B300169383 /* HeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B707F5C22A6A6F62008D0DDC /* TodoListItem.swift in Sources */,
+				B751AD152A6A97B400169383 /* HeaderView.swift in Sources */,
 				B707F5BA2A6A6EA4008D0DDC /* LoginView.swift in Sources */,
 				B707F5CE2A6A700B008D0DDC /* RegisterViewViewModel.swift in Sources */,
 				B707F5C42A6A6FBC008D0DDC /* MainViewViewModel.swift in Sources */,
